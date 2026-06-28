@@ -2,7 +2,6 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sing-box Documentation</title>
     <style>
         body {
@@ -12,52 +11,38 @@
             padding: 20px;
             background-color: #1a1a2e;
             color: #eee;
-            line-height: 1.6;
         }
         h1 {
             color: #00d4aa;
             border-bottom: 2px solid #00d4aa;
-            padding-bottom: 10px;
         }
         h2 {
             color: #00d4aa;
             margin-top: 40px;
-            border-left: 4px solid #00d4aa;
-            padding-left: 15px;
         }
-        .section {
-            background-color: #16213e;
-            border-radius: 8px;
-            padding: 20px;
-            margin: 20px 0;
-            border: 1px solid #0f3460;
+        .file-section {
+            margin: 30px 0;
         }
-        pre {
+        textarea {
+            width: 100%;
+            height: 600px;
             background-color: #0f3460;
-            border-radius: 6px;
+            color: #e0e0e0;
+            border: 1px solid #1a1a2e;
+            border-radius: 8px;
             padding: 15px;
-            overflow-x: auto;
-            white-space: pre-wrap;
-            word-wrap: break-word;
             font-family: 'Consolas', 'Monaco', monospace;
             font-size: 13px;
-            color: #e0e0e0;
-        }
-        code {
-            background-color: #0f3460;
-            padding: 2px 6px;
-            border-radius: 3px;
-            font-family: 'Consolas', 'Monaco', monospace;
+            line-height: 1.5;
+            resize: vertical;
+            white-space: pre;
+            overflow-wrap: normal;
+            overflow-x: auto;
         }
         .file-info {
             color: #888;
             font-size: 12px;
             margin-bottom: 10px;
-        }
-        hr {
-            border: none;
-            border-top: 1px solid #0f3460;
-            margin: 30px 0;
         }
     </style>
 </head>
@@ -65,14 +50,11 @@
 
 <h1>📁 Документация проекта Sing-box для OPNsense</h1>
 
-<!-- ============================================ -->
-<!-- РАЗДЕЛ 1: ВСТАВЬТЕ СЮДА СОДЕРЖИМОЕ ПЕРВОГО ФАЙЛА -->
-<!-- Kimi_Agent_sing-boxbug_contents.md -->
-<!-- ============================================ -->
-<h2>📄 Раздел 1: Kimi Agent Sing-boxbug</h2>
-<div class="section">
-    <div class="file-info">Файл: Kimi_Agent_sing-boxbug_contents.md | Размер: ~783 КБ</div>
-    <pre>
+<!-- РАЗДЕЛ 1: Первый MD-файл -->
+<div class="file-section">
+    <h2>📄 Раздел 1: Kimi Agent Sing-boxbug</h2>
+    <div class="file-info">Файл: Kimi_Agent_sing-boxbug_contents.md | ~783 КБ</div>
+    <textarea readonly>
 # Документация каталога
 
 Сгенерировано: 28.06.2026 11:23:44.096
@@ -22823,19 +22805,14 @@ Settings → "Rollback to Previous Version" button:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-    </pre>
+    </textarea>
 </div>
 
-<hr>
-
-<!-- ============================================ -->
-<!-- РАЗДЕЛ 2: ВСТАВЬТЕ СЮДА СОДЕРЖИМОЕ ВТОРОГО ФАЙЛА -->
-<!-- Sing-box-for-OPNsense_contents.md -->
-<!-- ============================================ -->
-<h2>📄 Раздел 2: Sing-box для OPNsense</h2>
-<div class="section">
-    <div class="file-info">Файл: Sing-box-for-OPNsense_contents.md | Размер: ~1.73 МБ</div>
-    <pre>
+<!-- РАЗДЕЛ 2: Второй MD-файл -->
+<div class="file-section">
+    <h2>📄 Раздел 2: Sing-box для OPNsense</h2>
+    <div class="file-info">Файл: Sing-box-for-OPNsense_contents.md | ~1.73 МБ</div>
+    <textarea readonly>
 # Документация каталога
 
 Сгенерировано: 28.06.2026 11:55:48
@@ -73259,13 +73236,7 @@ config.json:/usr/local/etc/sing-box/config.json
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-    </pre>
-</div>
-
-<hr>
-
-<div style="text-align: center; color: #666; padding: 20px;">
-    <p>Сгенерировано: 28.06.2026 | Для просмотра ассистентом Kimi</p>
+    </textarea>
 </div>
 
 </body>
